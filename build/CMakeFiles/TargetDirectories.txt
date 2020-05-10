@@ -1,0 +1,5 @@
+/Users/monika/casspair/Index_calculus/create_benchmarks_S4_github/build/CMakeFiles/rebuild_cache.dir
+/Users/monika/casspair/Index_calculus/create_benchmarks_S4_github/build/CMakeFiles/edit_cache.dir
+/Users/monika/casspair/Index_calculus/create_benchmarks_S4_github/build/src/CMakeFiles/rebuild_cache.dir
+/Users/monika/casspair/Index_calculus/create_benchmarks_S4_github/build/src/CMakeFiles/edit_cache.dir
+/Users/monika/casspair/Index_calculus/create_benchmarks_S4_github/build/src/CMakeFiles/wd.dir

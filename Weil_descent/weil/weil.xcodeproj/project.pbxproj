@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2BCA8D21CA8EF800EFADAC /* weil_out.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA7A21CA8EF700EFADAC /* weil_out.c */; };
+		5D2BCA8E21CA8EF800EFADAC /* semaev.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA7C21CA8EF700EFADAC /* semaev.c */; };
+		5D2BCA8F21CA8EF800EFADAC /* vect_bin.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA7E21CA8EF700EFADAC /* vect_bin.c */; };
+		5D2BCA9021CA8EF800EFADAC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA8421CA8EF800EFADAC /* main.c */; };
+		5D2BCA9121CA8EF800EFADAC /* weil.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA8621CA8EF800EFADAC /* weil.c */; };
+		5D2BCA9221CA8EF800EFADAC /* params.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA8821CA8EF800EFADAC /* params.c */; };
+		5D2BCA9321CA8EF800EFADAC /* semaev_out.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA8B21CA8EF800EFADAC /* semaev_out.c */; };
+		5D2BCA9421CA8EF800EFADAC /* semaev_masks.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BCA8C21CA8EF800EFADAC /* semaev_masks.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D854B8E210629A300C21570 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D0186A721EE29F500647224 /* nb_lines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nb_lines.h; path = ../../nb_lines.h; sourceTree = "<group>"; };
+		5D2BCA7A21CA8EF700EFADAC /* weil_out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = weil_out.c; path = ../../weil_out.c; sourceTree = "<group>"; };
+		5D2BCA7B21CA8EF700EFADAC /* params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = params.h; path = ../../params.h; sourceTree = "<group>"; };
+		5D2BCA7C21CA8EF700EFADAC /* semaev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = semaev.c; path = ../../semaev.c; sourceTree = "<group>"; };
+		5D2BCA7D21CA8EF700EFADAC /* terms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = terms.h; path = ../../terms.h; sourceTree = "<group>"; };
+		5D2BCA7E21CA8EF700EFADAC /* vect_bin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vect_bin.c; path = ../../vect_bin.c; sourceTree = "<group>"; };
+		5D2BCA7F21CA8EF700EFADAC /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = ../../constants.h; sourceTree = "<group>"; };
+		5D2BCA8021CA8EF700EFADAC /* weil_out.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = weil_out.h; path = ../../weil_out.h; sourceTree = "<group>"; };
+		5D2BCA8121CA8EF800EFADAC /* semaev_masks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = semaev_masks.h; path = ../../semaev_masks.h; sourceTree = "<group>"; };
+		5D2BCA8221CA8EF800EFADAC /* offset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = offset.h; path = ../../offset.h; sourceTree = "<group>"; };
+		5D2BCA8321CA8EF800EFADAC /* semaev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = semaev.h; path = ../../semaev.h; sourceTree = "<group>"; };
+		5D2BCA8421CA8EF800EFADAC /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../main.c; sourceTree = "<group>"; };
+		5D2BCA8521CA8EF800EFADAC /* vect_bin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vect_bin.h; path = ../../vect_bin.h; sourceTree = "<group>"; };
+		5D2BCA8621CA8EF800EFADAC /* weil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = weil.c; path = ../../weil.c; sourceTree = "<group>"; };
+		5D2BCA8721CA8EF800EFADAC /* weil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = weil.h; path = ../../weil.h; sourceTree = "<group>"; };
+		5D2BCA8821CA8EF800EFADAC /* params.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = params.c; path = ../../params.c; sourceTree = "<group>"; };
+		5D2BCA8921CA8EF800EFADAC /* e_offset_weil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = e_offset_weil.h; path = ../../e_offset_weil.h; sourceTree = "<group>"; };
+		5D2BCA8A21CA8EF800EFADAC /* semaev_out.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = semaev_out.h; path = ../../semaev_out.h; sourceTree = "<group>"; };
+		5D2BCA8B21CA8EF800EFADAC /* semaev_out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = semaev_out.c; path = ../../semaev_out.c; sourceTree = "<group>"; };
+		5D2BCA8C21CA8EF800EFADAC /* semaev_masks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = semaev_masks.c; path = ../../semaev_masks.c; sourceTree = "<group>"; };
+		5D854B90210629A300C21570 /* weil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = weil; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D854B8D210629A300C21570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2BCA7921CA8EDD00EFADAC /* weil */ = {
+			isa = PBXGroup;
+			children = (
+				5D2BCA7F21CA8EF700EFADAC /* constants.h */,
+				5D2BCA8921CA8EF800EFADAC /* e_offset_weil.h */,
+				5D2BCA8421CA8EF800EFADAC /* main.c */,
+				5D2BCA8221CA8EF800EFADAC /* offset.h */,
+				5D2BCA8821CA8EF800EFADAC /* params.c */,
+				5D2BCA7B21CA8EF700EFADAC /* params.h */,
+				5D2BCA8C21CA8EF800EFADAC /* semaev_masks.c */,
+				5D2BCA8121CA8EF800EFADAC /* semaev_masks.h */,
+				5D2BCA8B21CA8EF800EFADAC /* semaev_out.c */,
+				5D2BCA8A21CA8EF800EFADAC /* semaev_out.h */,
+				5D2BCA7C21CA8EF700EFADAC /* semaev.c */,
+				5D2BCA8321CA8EF800EFADAC /* semaev.h */,
+				5D0186A721EE29F500647224 /* nb_lines.h */,
+				5D2BCA7D21CA8EF700EFADAC /* terms.h */,
+				5D2BCA7E21CA8EF700EFADAC /* vect_bin.c */,
+				5D2BCA8521CA8EF800EFADAC /* vect_bin.h */,
+				5D2BCA7A21CA8EF700EFADAC /* weil_out.c */,
+				5D2BCA8021CA8EF700EFADAC /* weil_out.h */,
+				5D2BCA8621CA8EF800EFADAC /* weil.c */,
+				5D2BCA8721CA8EF800EFADAC /* weil.h */,
+			);
+			path = weil;
+			sourceTree = "<group>";
+		};
+		5D854B87210629A300C21570 = {
+			isa = PBXGroup;
+			children = (
+				5D2BCA7921CA8EDD00EFADAC /* weil */,
+				5D854B91210629A300C21570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D854B91210629A300C21570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D854B90210629A300C21570 /* weil */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D854B8F210629A300C21570 /* weil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D854B97210629A300C21570 /* Build configuration list for PBXNativeTarget "weil" */;
+			buildPhases = (
+				5D854B8C210629A300C21570 /* Sources */,
+				5D854B8D210629A300C21570 /* Frameworks */,
+				5D854B8E210629A300C21570 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weil;
+			productName = weil;
+			productReference = 5D854B90210629A300C21570 /* weil */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D854B88210629A300C21570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Monika Trimoska";
+				TargetAttributes = {
+					5D854B8F210629A300C21570 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D854B8B210629A300C21570 /* Build configuration list for PBXProject "weil" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D854B87210629A300C21570;
+			productRefGroup = 5D854B91210629A300C21570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D854B8F210629A300C21570 /* weil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D854B8C210629A300C21570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2BCA9121CA8EF800EFADAC /* weil.c in Sources */,
+				5D2BCA9021CA8EF800EFADAC /* main.c in Sources */,
+				5D2BCA8F21CA8EF800EFADAC /* vect_bin.c in Sources */,
+				5D2BCA8E21CA8EF800EFADAC /* semaev.c in Sources */,
+				5D2BCA8D21CA8EF800EFADAC /* weil_out.c in Sources */,
+				5D2BCA9321CA8EF800EFADAC /* semaev_out.c in Sources */,
+				5D2BCA9421CA8EF800EFADAC /* semaev_masks.c in Sources */,
+				5D2BCA9221CA8EF800EFADAC /* params.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D854B95210629A300C21570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D854B96210629A300C21570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D854B98210629A300C21570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D854B99210629A300C21570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D854B8B210629A300C21570 /* Build configuration list for PBXProject "weil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D854B95210629A300C21570 /* Debug */,
+				5D854B96210629A300C21570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D854B97210629A300C21570 /* Build configuration list for PBXNativeTarget "weil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D854B98210629A300C21570 /* Debug */,
+				5D854B99210629A300C21570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D854B88210629A300C21570 /* Project object */;
+}
