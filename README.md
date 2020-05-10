@@ -18,4 +18,9 @@ chmod +x launch.sh
 
 You can create other benchmarks in a similar way, by choosing the arguments for the ```find_points.sage``` script, which correspond to parameters ```n```, ```l``` and ```nb```. This will create a total of ```2⋅nb``` instances where at least ```nb``` instances have at least one solution. 
 
+After cloning this repository, you might also have to give execute permission to the ```script_benchmarks.sh``` script.
+```bash
+chmod +x script_benchmarks.sh
+```
+
 
