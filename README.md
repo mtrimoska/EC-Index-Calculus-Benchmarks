@@ -16,6 +16,6 @@ chmod +x launch.sh
 ./launch.sh
 ```
 
-You can create other benchmarks in a similar way, by choosing the arguments for the ```find_points.sage``` script, which correspond to parameters ```n```, ```l``` and ```nb```. This will create a total of ```2⋅nb``` instances where at least ```nb``` instances will have at least one solution. 
+You can create other benchmarks in a similar way, by choosing the arguments for the ```find_points.sage``` script, which correspond to parameters ```n```, ```l``` and ```nb```. This will create a total of ```2⋅nb``` instances where at least ```nb``` instances have at least one solution. 
 
 
