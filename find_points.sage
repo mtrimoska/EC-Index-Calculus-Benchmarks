@@ -39,33 +39,29 @@ for j in range(0, nb_inst):
     e3=X1*X2*X3
     f3=x__1^4+e1^4+e3^4+e2^4*x__1^4+e3^3*x__1+e3*e2^2*x__1^3+e3*e1^2*x__1+e3*x__1^3+e1^2*e3^2*x__1^2+e3^2*x__1^4+e3^2+e2^2*x__1^2
     #print e1, " " , e2, " " , e3
-    #print X1.polynomial()
     lst = X1.polynomial().coefficients(sparse=False)
     while(len(lst) < l):
         lst.append(0);
     strX1= ''.join(str(e) for e in lst)
-    
-    lst = X2.polynomial().coeffs()
+    lst = X2.polynomial().coefficients(sparse=False)
     while(len(lst) < l):
         lst.append(0);
     strX2= ''.join(str(e) for e in lst)
-
-    lst = X3.polynomial().coeffs()
+    lst = X3.polynomial().coefficients(sparse=False)
     while(len(lst) < l):
         lst.append(0);
     strX3= ''.join(str(e) for e in lst)
-
-    lst = x__1.polynomial().coeffs()
+    lst = x__1.polynomial().coefficients(sparse=False)
     while(len(lst) < n):
         lst.append(0);
     strXr= ''.join(str(e) for e in lst)
-    
+
     cmd="./script_benchmarks.sh "+str(n)+" "+str(l)+" "+strR+" "+strXr+" "+strX1+"-"+strX2+"-"+strX3+" S;"
-    print cmd
+    print(cmd)
 for j in range(0, nb_inst):
     listCoefs = []
     for a in range(0,n):
         listCoefs.insert(0,randint(0,1))
     strXr= ''.join(str(e) for e in listCoefs)
     cmd="./script_benchmarks.sh "+str(n)+" "+str(l)+" "+strR+" "+strXr+" "+"UNSAT"+" U;"
-    print cmd
+    print(cmd)
